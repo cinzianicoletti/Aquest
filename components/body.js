@@ -1,9 +1,10 @@
-import {ImageBox} from "./image-box";
+// import it from "../components/it.js";
 import items from "../components/items.js";
+import {ImageBox} from "./image-box";
 import React from "react";
 import {motion, useDragControls} from "framer-motion";
 import {Button} from "./button";
-import it from "../components/it.js";
+
 
 const transition = {
     type: "spring",
@@ -40,12 +41,16 @@ export default function Body() {
                 animate={{x: isSliderActive ? 0 : -800, opacity: isSliderActive ? 1 : 0}}
                 transition={transition}>
                 <h1
-                    className="text-8xl leading-none font-playfair">
-                    {it.title}
+                    className="text-8xl leading-tight font-playfair">
+                    The Abstract design
                 </h1>
                 <p
-                    className="font-roboto mt-8 leading-relaxed text-xl">
-                    {it.text}
+                    className="font-roboto mt-8 text-[#707070] leading-relaxed text-xl">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </motion.div>
 
