@@ -17,6 +17,6 @@ TAG 1.0 The work was delivered on 04/Nov/2022
 TAG 2.0 The work was updated in the following days to Friday, 4/Nov/2022
 
 What is missing:
-1. [ ] Animation at the click of the spider image
+1. [ ] Animation at the click of the slider image
 2. [ ] Change of status of "slider view" and "compact view" icons on click
-3. [ ] Change of status of "slider view" and "compact view" icons on click
+3. [ ] Slider animation in the "slider display" mode
