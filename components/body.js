@@ -19,11 +19,6 @@ export default function Body() {
     const constraintsRef = useRef(null);
     const targetRef = useRef();
     const [dimensions, setDimensions] = useState({width: 0, height: 0});
-    let screen_width = 0;
-
-    if (typeof window !== 'undefined') {
-        screen_width = window.innerWidth;
-    }
 
     useLayoutEffect(() => {
         if (targetRef.current) {
