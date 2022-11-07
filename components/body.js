@@ -61,7 +61,7 @@ export default function Body() {
                 }}
                 transition={transition}>
                 <h1
-                    className="text-8xl leading-tight font-playfair">
+                    className="text-8xl leading-tight font-bold font-playfair">
                     The Abstract design
                 </h1>
                 <p
