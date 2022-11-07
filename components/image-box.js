@@ -28,12 +28,11 @@ export const ImageBox = (item) => {
     return (
         // Animation Slider - Compact
         <motion.div
-            className={'h-auto w-[459px] text-center mr-10 image-container absolute top-0 left-0 overflow-visible flex flex-col justify-start '}
+            className={'h-auto w-[459px] text-center mr-10 image-container relative top-0 left-0 overflow-visible flex flex-col justify-start '}
             animate={{
                 // zIndex: position % item.count,
-                x: isSliderActive ? position * 200 * (5 / 7) : position * 500,
+                x: isSliderActive ? - position * 350 : position * 10,
                 scale: isSliderActive ? ((3 / 2) * (position / item.count) + 1) / 2 : 1,
-                width: item.isClickedImage && !isSliderActive ? 1000 : 459
             }}
             transition={transition}
             key={item.parentToChild.ig}>
