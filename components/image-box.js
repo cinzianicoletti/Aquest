@@ -34,7 +34,7 @@ export const ImageBox = (item) => {
                 x: isSliderActive ? - position * 360 : position * 10,
                 y: isSliderActive ? - position * 15 : position * 10,
                 opacity: isSliderActive ? 1 + (0.1 * position) - (position * 0.1) : 1,
-                zIndex: isSliderActive ? 100 - (position * 10) : 1,
+                zIndex: isSliderActive ? (item.length * 10) - (position * 10) : 1,
                 scale: isSliderActive ? 1 - (position * 0.1) : 1
             }}
             transition={transition}
