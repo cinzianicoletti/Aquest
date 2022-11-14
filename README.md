@@ -13,7 +13,7 @@ Use this command fo generate a new font:
 
 
 
-TAG 1.0 The work was delivered on 04/Nov/2022
+TAG 1.0 The work was delivered on 04/Nov/2022 <br>
 TAG 2.0 The work was updated in the following days to Friday, 4/Nov/2022
 
 What is missing:

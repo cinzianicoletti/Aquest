@@ -47,8 +47,7 @@ export default function Body() {
 
     return (
         <motion.div
-            className={"h-full w-full relative flex mt-20 " +
-                (isSliderActive ? "container mx-auto " : "")}
+            className={"h-full w-full relative flex mt-20 container mx-auto"}
             ref={constraintsRef}
             onPointerDown={startDrag}
         >
@@ -104,7 +103,7 @@ export default function Body() {
                 })}
 
             </motion.div>
-            <Button isSliderActive={changeIsSliderActive}/>
+            <Button isSliderActive={isSliderActive} changeIsSliderActive={changeIsSliderActive}/>
         </motion.div>
 
     );
